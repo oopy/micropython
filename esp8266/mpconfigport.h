@@ -189,8 +189,8 @@ extern const struct _mp_obj_module_t mp_module_onewire;
 // board specifics
 
 #define MICROPY_MPHALPORT_H "esp_mphal.h"
-#define MICROPY_HW_BOARD_NAME "ESP module"
-#define MICROPY_HW_MCU_NAME "ESP8266"
+#define MICROPY_HW_BOARD_NAME "OOPY_CORE"
+#define MICROPY_HW_MCU_NAME "ESP8285"
 #define MICROPY_PY_SYS_PLATFORM "esp8266"
 
 #define MP_FASTCODE(n) __attribute__((section(".iram0.text." #n))) n
